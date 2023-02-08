@@ -35,3 +35,44 @@ h1{
 /*.rojo, .rosa, .violeta{
     color: white;
 }*/
+
+.punteado{
+    border-style: dotted;
+}
+
+.discontinuo{
+    border-style: dashed;
+}
+.solido{
+    border:3px solid red;
+}
+.doble{
+    border-style: double;
+}
+.surco{
+    border:30px groove;
+    /*border-width:10px;
+    border-style:groove;*/
+}
+.cresta{
+    border:30px ridge;
+}
+.recuadro{
+    border:20px inset;
+}
+.outset{
+    border:20px outset;
+}
+.no{
+    border: none;
+}
+.oculto{
+    border:hidden;
+}
+.mixto{
+    border-style: dotted solid dashed double;
+    border-width: 5px;
+}
+
+
+
