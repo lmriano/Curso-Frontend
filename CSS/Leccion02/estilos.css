@@ -3,31 +3,35 @@ h1{
 }
 
 .rojo{
-    background-color: firebrick;
+    /*background-color: firebrick;*/
+    border: 1px solid firebrick;
 }
 .rosa{
-    background-color: hotpink;
+    /*background-color: hotpink;*/
+    border: 15px dashed rgb(255,205,180);
 }
 
 .amarillo{
-    background-color: gold;
+/*background-color: gold;*/
+    border: 10px double #ffd700;
 }
 
-.naranja{
+/*.naranja{
     background-color: darkorange;
-}
+}*/
 
-.violeta{
+/*.violeta{
     background-color: blueviolet;
 }
 
 .verde{
     background-color: lime;
-}
+}*/
 
 .azul{
-    background-color: turquoise;
+    /*background-color: turquoise;*/
+    border: 10px dotted hsl(174, 72%, 56%);
 }
-.rojo, .rosa, .violeta{
+/*.rojo, .rosa, .violeta{
     color: white;
-}
+}*/
