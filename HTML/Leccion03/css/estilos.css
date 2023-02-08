@@ -1,0 +1,40 @@
+
+h1{
+  color: blue;
+  text-align: center;
+}
+p{
+    color:black;
+    /*background-color: aquamarine;*/
+}
+/* box model css */
+h2 p{
+    color:black;
+    /*background-color: aquamarine;*/
+    font-size: small;
+    background-color: aquamarine;
+    padding: 10px;
+    border: 5px solid #023047;
+    /*margin:20px;*/
+    /*margin-top: 40px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;*/
+    /*Margen arriba, derecha, abajo, izquierda*/
+    /*margin: 40px 10px 20px 10px;*/
+    margin: auto 50px;
+    text-align: center;
+}
+/*Usando paletas de colores*/
+h3 p{
+    color: #264653;
+    background-color: #f4a261;
+    padding: 15px;
+    border: 10px solid #e76f51;
+    margin: auto 50px;
+    text-align: center;
+}
+
+
+
+
