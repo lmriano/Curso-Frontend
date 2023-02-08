@@ -44,10 +44,11 @@ h1{
 
 .discontinuo{
     border-style: dashed;
+    border-color: crimson hotpink gold lime;
     /*border-width: thin; delgado
     border-width: medium; medio
     border-width: thick; ancho*/
-    border-width: medium;
+    border-width: thick;
 }
 .solido{
     border:3px solid red;
@@ -61,6 +62,7 @@ h1{
     border-width: 10px 5px;
 }
 .surco{
+    
     border:30px groove;
     /*border-width:10px;
     border-style:groove;*/
@@ -83,6 +85,16 @@ h1{
 .mixto{
     border-style: dotted solid dashed double;
     border-width: 5px;
+}
+.redondo{
+    border: solid lime;
+    border-width: 5px;
+    border-radius: 20px;
+}
+
+.redondo_1{
+    border: 5px solid blueviolet;
+    border-radius: 20px 0px 10px 0px;
 }
 
 
