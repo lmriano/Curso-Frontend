@@ -1,0 +1,25 @@
+/*Selector universal*/
+*{
+    background-color: yellow;
+}
+
+/*Selector h1*/
+h1 {
+  color: blue;
+  font-size: 50px;
+}
+
+/*Selector id*/
+#titulo {
+  color: cadetblue;
+  text-align: center;
+}
+
+/*Selector centrar*/
+.centrar{
+    text-align: center;
+}
+.texto_grande{
+    font-size: 20px;
+}
+
