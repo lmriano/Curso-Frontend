@@ -38,16 +38,27 @@ h1{
 
 .punteado{
     border-style: dotted;
+    /*Ancho de borde arriba derecha abajo izquierda*/
+    border-width: 10px 5px 3px 2px;
 }
 
 .discontinuo{
     border-style: dashed;
+    /*border-width: thin; delgado
+    border-width: medium; medio
+    border-width: thick; ancho*/
+    border-width: medium;
 }
 .solido{
     border:3px solid red;
+    /*Borde arriba derecho e izquierdo y abajo*/
+    border-width: 10px 5px 2px;
 }
 .doble{
+    border-color: blueviolet;
     border-style: double;
+    /*Borde arriba y abajo, derecha e izquierda*/
+    border-width: 10px 5px;
 }
 .surco{
     border:30px groove;
