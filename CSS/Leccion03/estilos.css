@@ -6,7 +6,7 @@ h1{
 div{
     padding: 10px;
     border: 15px solid #457b9d;
-    margin: 20px;
+    margin-left: 100px;
     background-color: #f1faee;
     max-width: 300px;
     /*max-height: 100px;*/
@@ -21,6 +21,10 @@ div{
 
 .prueba{
     margin: 0 auto;
+}
+
+p.interno{
+    margin-left: inherit;
 }
 
 
